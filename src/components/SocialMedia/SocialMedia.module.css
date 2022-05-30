@@ -1,0 +1,24 @@
+.social__media__container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 20%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.center:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 550px) {
+  .social__media__container {
+    width: 80%;
+  }
+}
